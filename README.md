@@ -10,3 +10,6 @@ docker-compose up -d
 ```sh
 docker compose up -d
 ```
+
+### Testing in the web browser
+Access http://localhost:8080
