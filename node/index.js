@@ -24,7 +24,7 @@ const createNewPerson = (connection, chance) => {
 const buildHtmlResponse = (error, result) => {
     if (error) throw error;
 
-    let htmlResponse = '<h1>Full Cycle</h1>';
+    let htmlResponse = '<h1>Full Cycle Rocks!</h1>';
     htmlResponse += '<ul>';
 
     result.forEach((person) =>  {
