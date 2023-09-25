@@ -1,6 +1,6 @@
 FROM node:18
 
-WORKDIR /www/html
+WORKDIR /usr/src/app
 
 RUN apt-get update && apt-get install -y wget
 
