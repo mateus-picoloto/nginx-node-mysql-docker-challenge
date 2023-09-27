@@ -13,6 +13,5 @@ RUN apt-get update \
 
 COPY index.js package.json package-lock.json ./
 
-RUN npm install
 
 EXPOSE 3000
